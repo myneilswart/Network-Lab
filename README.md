@@ -151,11 +151,26 @@ User secrets are stored as type 5 (MD5) hashes due to Packet Tracer limitations,
 │   ├── CORE-RTR.txt       # Router running configuration
 │   └── CORE-SW.txt        # Switch running configuration
 └── screenshots/
-    ├── topology.png        # Packet Tracer topology diagram
-    ├── vlan-brief.png      # show vlan brief output
-    ├── dhcp-bindings.png   # show ip dhcp binding output
-    ├── access-lists.png    # show access-lists output
-    └── ssh-test.png        # SSH connectivity test from IT-PC1
+    ├── GUEST to VLAN10 fail.png
+    ├── GUEST to VLAN20 fail.png
+    ├── GUEST to VLAN40 fail.png
+    ├── GUEST to VLAN99 fail.png
+    ├── IT-PC1 SSH_to_RTR success.png
+    ├── IT-PC1 SSH_to_SW success.png
+    ├── IT-PC1 to VLAN10 success.png
+    ├── IT-PC1 to VLAN20 success.png
+    ├── IT-PC1 to VLAN40 success.png
+    ├── IT-PC1 to VLAN99 success.png
+    ├── IT-PC2 SSH_to_RTR fail .png
+    ├── IT-PC2 SSH_to_SW fail.png
+    ├── RTR show-access-lists.png
+    ├── RTR show-ip-dhcp-binding.png
+    ├── RTR show-ip-interface-brief.png
+    ├── RTR show-ip-ssh.png
+    ├── SW show-interfaces-trunk.png
+    ├── SW show-vlan-brief.png
+    ├── topology.png
+
 ```
 
 ---
