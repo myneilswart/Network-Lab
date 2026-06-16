@@ -146,10 +146,11 @@ User secrets are stored as type 5 (MD5) hashes due to Packet Tracer limitations,
 
 ```
 /
-├── README.md
 ├── configs/
-│   ├── CORE-RTR.txt       # Router running configuration
-│   └── CORE-SW.txt        # Switch running configuration
+│   ├── CORE-RTR.txt    
+│   └── CORE-SW.txt     
+└── packet-tracer/
+│   ├── Network-Lab.pkt
 └── screenshots/
     ├── GUEST to VLAN10 fail.png
     ├── GUEST to VLAN20 fail.png
@@ -170,6 +171,7 @@ User secrets are stored as type 5 (MD5) hashes due to Packet Tracer limitations,
     ├── SW show-interfaces-trunk.png
     ├── SW show-vlan-brief.png
     ├── topology.png
+├── README.md
 
 ```
 
