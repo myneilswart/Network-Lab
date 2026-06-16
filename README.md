@@ -179,7 +179,6 @@ User secrets are stored as type 5 (MD5) hashes due to Packet Tracer limitations,
 
 - Always verify end-host default gateway configuration before troubleshooting ACLs or routing — a missing gateway on IT-PC1 caused significant troubleshooting time before the root cause was identified.
 - `ip default-gateway` is a switch command only; routers use their routing table and the command should not be configured on a router.
-- When `aaa new-model` is enabled, `login local` on VTY lines is replaced by AAA method lists. Standard `login local` is incompatible with AAA mode.
 - ACL direction matters — applying an ACL outbound on a management VLAN subinterface can block legitimate return traffic. Inbound ACLs on source VLANs are cleaner and easier to reason about.
 - Packet Tracer has simulator limitations including no native SSH service on servers and limited `show` command support. RSA keys were successfully generated at 2048-bit. In a production environment ECDSA keys with SHA-256 (`ip ssh server algorithm hostkey ecdsa`) would be preferred.
 
